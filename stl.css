@@ -1,0 +1,53 @@
+body{background-color: rgb(66, 36, 100);
+    text-align: center;
+    
+}
+
+h5,h3{color: rgb(233, 164, 94);}
+
+#bigbox{text-align: center;}
+
+.box{background-color: rgb(99, 66, 145);
+
+display:inline-block;
+
+width:20em;
+height:30em;
+
+margin-right: 2em;
+margin-top: 2em;
+
+
+
+}
+
+/* #unli{ width: 4em; height: 0.5em; border: 0.1em solid red;} */
+
+/* header{border-bottom: 1em solid red; } */
+
+
+
+
+
+
+.ib{
+    position: absolute; 
+    margin: 2em; 
+    width:16em;} 
+
+
+img{
+    width:16em; 
+    position: relative; 
+    /* margin-left: 1.8em;  */
+    margin-top: 1em;}
+
+.ib p{text-align: left;}
+
+.ib button{margin-right: 15em;}
+
+h6,h2,p{color:white;}
+
+
+
+
