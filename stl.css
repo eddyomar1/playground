@@ -3,7 +3,7 @@ body{background-color: rgb(66, 36, 100);
     
 }
 
-h5,h3{color: rgb(233, 164, 94);}
+h5,h3{color: rgb(245, 190, 135);}
 
 #bigbox{text-align: center;}
 
@@ -21,9 +21,16 @@ margin-top: 2em;
 
 }
 
-/* #unli{ width: 4em; height: 0.5em; border: 0.1em solid red;} */
+#unli{ 
+    position:relative; 
+    margin: 0px  auto; 
+    width: 15em; 
+    /* height: 0.1em;  */
+    border: 0.2em solid rgb(245, 190, 135);
+    background-color: rgb(245, 190, 135);
+}
 
-/* header{border-bottom: 1em solid red; } */
+header{font-family: monospace; }
 
 
 
@@ -42,11 +49,11 @@ img{
     /* margin-left: 1.8em;  */
     margin-top: 1em;}
 
-.ib p{text-align: left;}
+.ib p{text-align: left; font-style: italic;}
 
 .ib button{margin-right: 15em;}
 
-h6,h2,p{color:white;}
+h6,h1,p{color:white;}
 
 
 
