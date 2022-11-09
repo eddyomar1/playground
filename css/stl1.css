@@ -1,0 +1,140 @@
+#nv {
+  width: 100%;
+  margin: 0 auto;
+  background-color:transparent;
+  position: relative; 
+  z-index: 100;
+  margin-top: 1%;
+
+}
+
+
+
+ul li {
+  display: inline;
+  text-align: center;
+}
+
+
+#nv a {
+  display: inline-block;
+  width: 8%;
+  padding: .75rem 0;
+  margin: 0;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+#nv a:hover{
+  text-decoration: underline solid white 20%;  
+}
+
+.on{margin-left: 15%;}
+
+.brand{margin-left: 15%;}
+
+
+
+
+
+
+
+
+
+
+
+
+#bla{
+
+    position: relative;
+    /* background-attachment: fixed; */
+    height: 30em;
+    width: 100%;
+    background-position: center center; 
+    background-size: cover;
+    
+    
+  }
+
+#lm{
+  width: 100%;
+  height: 30em;
+  position: absolute;
+  top: 0px;
+
+
+}
+
+#op{background-color: black;
+  width: 100%;
+  height: 30em;
+  position: absolute;
+  top: 0px;
+  opacity: 0.5;
+
+}
+
+
+
+#vi{text-align: center;}
+
+#vid{color: rgb(248, 203, 50); margin-top: 3%;}
+
+#vi h1{color: white; margin-top: 5%;  font-family: sans-serif;}
+
+
+  
+
+  #fbox{
+    
+    margin-left: 6%;
+    width: 95%;
+    padding: 5% ;
+  }
+
+#inbox{background-color: rgb(248, 203, 50);
+    height: 100%;
+    width: 40%;
+    padding-top: 4%;
+
+  }
+
+  #inbox *{margin-left: 4%; margin-bottom: 4%;}
+
+  #inbox1{
+    height: 100%;
+    width: 45%;
+
+
+  }
+
+#inbox1 button,#inbox button{
+  
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.479);
+}
+
+
+  .fib{background-color:white;}
+
+
+ .box{
+    
+display:inline-block;
+
+width:20em;
+height:30em;
+
+margin-right: 2em;
+margin-top: 2em;
+
+
+ }
+
+
+
+
+.box a{color: rgb(248, 203, 50);}
+
+#contbox{margin: 0% auto;}
+
+.conta{margin: 0 auto;}
