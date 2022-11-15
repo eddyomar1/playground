@@ -25,24 +25,11 @@ ul li {
   color: rgb(255, 255, 255);
 }
 
-#nv a:hover{
-  text-decoration: underline solid white 20%;  
-}
+#nv a:hover{  text-decoration: underline solid white 20%;  }
 
 .on{margin-left: 15%;}
 
 .brand{margin-left: 15%;}
-
-
-
-
-
-
-
-
-
-
-
 
 #bla{
 
@@ -75,15 +62,11 @@ ul li {
 }
 
 
-
 #vi{text-align: center;}
 
 #vid{color: rgb(248, 203, 50); margin-top: 3%;}
 
 #vi h1{color: white; margin-top: 5%;  font-family: sans-serif;}
-
-
-  
 
   #fbox{
     
@@ -101,20 +84,12 @@ ul li {
 
   #inbox *{margin-left: 4%; margin-bottom: 4%;}
 
-  #inbox1{
-    height: 100%;
-    width: 45%;
+  #inbox1{ height: 100%; width: 45%; }
+
+#inbox1 button,#inbox button{ box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.479);}
 
 
-  }
-
-#inbox1 button,#inbox button{
-  
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.479);
-}
-
-
-  .fib{background-color:white;}
+.fib{background-color:white;}
 
 
  .box{
@@ -127,14 +102,105 @@ height:30em;
 margin-right: 2em;
 margin-top: 2em;
 
-
- }
-
-
-
+}
 
 .box a{color: rgb(248, 203, 50);}
 
-#contbox{margin: 0% auto;}
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
 
-.conta{margin: 0 auto;}
+@media only screen and (max-width: 600px) {
+  #nv {
+    width: 0%;
+    height: 80%;
+    margin-left: 0px;
+    margin-top: 10%;
+    background-color:teal;
+    position: relative; 
+    z-index: 100;
+    position: fixed;
+    
+  }
+
+  
+  #menu{
+
+position: fixed;
+margin-top: 5%;
+background-color: rgb(248, 203, 50);
+width: 1.3em;
+height: 1.4em;
+
+/* opacity: 0; */
+
+
+}
+
+#menu i{ margin-left: 0.1em;}
+
+
+#nv *{ display: none;}
+
+#menu:hover ~ #nv{
+
+  width: 60%;
+  height: 80%;
+  margin-left: 0px;
+  margin-top: 10%;
+  background-color:teal;
+  position: relative; 
+  z-index: 100;
+  position: fixed;
+  
+  
+}
+
+#menu:hover ~ #nv *{
+  
+  display: block;
+  
+  
+}
+ul li {
+  display: block;
+  position: relative;
+  /* text-align: center; */
+  font-size: 120%;
+  margin-left: 18%;    
+}
+
+/* .on{margin-left: -30%;    }
+.brand{margin-left: -50%;    } */
+
+#inbox{background-color: rgb(248, 203, 50);
+  /* height: 60%; */
+  width: 80%;
+  padding-top: 4%;
+  margin-left: 15%;
+
+}
+
+#inbox1{ 
+  /* height: 60%;  */
+  width: 80%; 
+  margin-left: 15%;
+  margin-top: 20%;
+
+}
+
+.box{
+    
+  height:15em;
+  
+  margin-top: 20em;
+  
+  }
+
+
+}
+
+
+
+
+
+
+
