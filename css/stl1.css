@@ -150,7 +150,8 @@ height: 1.4em;
   position: relative; 
   z-index: 100;
   position: fixed;
-  
+
+  transition:  ease-in-out 1s;
   
 }
 
