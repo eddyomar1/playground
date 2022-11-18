@@ -91,6 +91,7 @@ ul li {
 
 .fib{background-color:white;}
 
+#menu{display: none;}
 
  .box{
     
@@ -132,6 +133,7 @@ height: 1.4em;
 
 /* opacity: 0; */
 
+display: block;
 
 }
 
