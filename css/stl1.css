@@ -36,7 +36,7 @@ ul li {
     position: relative;
     /* background-attachment: fixed; */
     height: 30em;
-    width: 100%;
+    width: 115%;
     background-position: center center; 
     background-size: cover;
     
@@ -44,7 +44,7 @@ ul li {
   }
 
 #lm{
-  width: 100%;
+  width: 115%;
   height: 30em;
   position: absolute;
   top: 0px;
@@ -53,7 +53,7 @@ ul li {
 }
 
 #op{background-color: black;
-  width: 100%;
+  width: 115%;
   height: 30em;
   position: absolute;
   top: 0px;
@@ -70,7 +70,7 @@ ul li {
 
   #fbox{
     
-    margin-left: 6%;
+    margin-left: 10%;
     width: 95%;
     padding: 5% ;
   }
