@@ -83,6 +83,7 @@ ul li {
   }
 
   #inbox *{margin-left: 4%; margin-bottom: 4%;}
+  
 
   #inbox1{ height: 100%; width: 45%; }
 
@@ -178,18 +179,25 @@ ul li {
 .brand{margin-left: -50%;    } */
 
 #inbox{background-color: rgb(248, 203, 50);
+  border-radius: 2%;
   /* height: 60%; */
   width: 80%;
   padding-top: 4%;
+  padding-left: 5%;
+  padding-bottom: 3%;
   margin-left: 10%;
 
 }
+
+#inbox *{margin-left: 9%; margin-bottom: 4%;}
+
+#inbox button{margin-left: 0.009em;}
 
 #inbox1{ 
   /* height: 60%;  */
   width: 80%; 
   margin-left: 15%;
-  margin-top: 20%;
+  margin-top: 10%;
 
 }
 
