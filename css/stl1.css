@@ -181,17 +181,17 @@ ul li {
 #inbox{background-color: rgb(248, 203, 50);
   border-radius: 2%;
   /* height: 60%; */
-  width: 80%;
+  width: 110%;
   padding-top: 4%;
   padding-left: 5%;
   padding-bottom: 3%;
-  margin-left: 10%;
+  margin-left: 5%;
 
 }
 
-#inbox *{margin-left: 9%; margin-bottom: 4%;}
+#inbox *{margin-left: 18%; margin-bottom: 4%;}
 
-#inbox button{margin-left: 0.009em;}
+#inbox button{margin-left: 2em;}
 
 #inbox1{ 
   /* height: 60%;  */
